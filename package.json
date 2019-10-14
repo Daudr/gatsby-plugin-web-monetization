@@ -1,0 +1,43 @@
+{
+  "name": "gatsby-plugin-web-monetization",
+  "version": "1.0.0",
+  "description": "A simple GatsbyJS plugin that implements Web Monetization Meta Tag",
+  "private": false,
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir . --ignore test/",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daudr/gatsby-plugin-web-monetization.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "web-monetization"
+  ],
+  "author": "Michele Da Rin Fioretto <michele@daudr.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Daudr/gatsby-plugin-web-monetization/issues"
+  },
+  "homepage": "https://github.com/Daudr/gatsby-plugin-web-monetization#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.6.3",
+    "react": "^16.10.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "babel-preset-gatsby-package": "^0.2.9",
+    "cross-env": "^6.0.3",
+    "jest": "^24.9.0"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.16.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  }
+}
