@@ -5,14 +5,14 @@ export const onPreRenderHTML = (
   pluginOptions
 ) => {
   if (process.env.NODE_ENV !== `production`) {
-    reporter.warn("non production environment");
+    // reporter.warn("non production environment");
     return null;
   }
 
   if (!pluginOptions.paymentPointer) {
-    reporter.warn(
-      `Payment Pointer is not defined, add it to your gatsby-config.js file.`
-    );
+    // reporter.warn(
+    //   `Payment Pointer is not defined, add it to your gatsby-config.js file.`
+    // );
     return null;
   }
 
