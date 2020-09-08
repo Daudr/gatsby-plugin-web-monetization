@@ -1,4 +1,4 @@
-# gatsby-plugin-we-monetization
+# gatsby-plugin-web-monetization
 
 Add Web Monetization Meta Tag on your Gatsby site.
 

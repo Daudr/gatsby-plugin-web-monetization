@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-web-monetization",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A simple GatsbyJS plugin that implements Web Monetization Meta Tag",
   "private": false,
   "main": "index.js",
@@ -29,14 +29,14 @@
     "react": "^16.10.2"
   },
   "devDependencies": {
-    "@babel/cli": "^7.6.4",
-    "@babel/core": "^7.6.4",
-    "babel-preset-gatsby-package": "^0.2.9",
-    "cross-env": "^6.0.3",
-    "jest": "^24.9.0"
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "babel-preset-gatsby-package": "^0.5.2",
+    "cross-env": "^7.0.2",
+    "jest": "^26.4.2"
   },
   "peerDependencies": {
-    "gatsby": "^2.16.1",
+    "gatsby": "^2.24.55",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
   }
