@@ -26,18 +26,18 @@
   "homepage": "https://github.com/Daudr/gatsby-plugin-web-monetization#readme",
   "dependencies": {
     "@babel/runtime": "^7.6.3",
-    "react": "^16.10.2"
+    "react": "^17.0.2"
   },
   "devDependencies": {
-    "@babel/cli": "^7.11.6",
+    "@babel/cli": "^7.13.14",
     "@babel/core": "^7.11.6",
-    "babel-preset-gatsby-package": "^0.5.2",
-    "cross-env": "^7.0.2",
-    "jest": "^26.4.2"
+    "babel-preset-gatsby-package": "^1.2.0",
+    "cross-env": "^7.0.3",
+    "jest": "^26.6.3"
   },
   "peerDependencies": {
-    "gatsby": "^2.24.55",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "gatsby": "^3.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
